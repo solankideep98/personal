@@ -1,0 +1,17 @@
+body{
+    background-color:red;
+
+}
+.par{
+    width:fit-content;
+    /* animation-name: anim;
+    animation-duration: 3s; */
+}
+@keyframes anim{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
