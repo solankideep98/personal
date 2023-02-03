@@ -132,16 +132,19 @@ h1{
         flex-direction: column;
     }
     .meeh{
-        width:20vw;
+        width:25vw;
     }
     .articles{
         display: flex;
         flex-direction: column;
+        gap:2vh;
     }
     .ikshna{
-        width: 30vw;
+        width: 40vw;
     }
     .suno{
-        width: 30vw;
+        width: 40vw;
     }
+    p{
+        width:50vw
 }
