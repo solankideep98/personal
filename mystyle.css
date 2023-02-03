@@ -131,6 +131,38 @@ h1{
 .suno{
     width: 10vw;
 }
+.dropbtn {
+  background-color: #ffffff00;
+  color: white;
+  padding: 4vw;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0f0f0f;
+  min-width: 30vw;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 254, 254);
+  padding: 2vw 3vw;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(250, 246, 246, 0.897);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e4100;}
 @media screen and (max-width:700px){
     
     .content{
@@ -154,4 +186,26 @@ h1{
     }
     p{
         width:50vw
+
+     nav.navigation{
+        display: none;
+        /* flex-direction: column;
+        gap: 2vh; */
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: row;
+        gap: 10vw;
+    }
+    .logo-small{
+        font-size: 20vw;
+    }
+    }
+    @media screen and (min-width:700px) {
+    div.dropdown{
+        display: none;
+    }
+    div.logo-small{
+        display: none;
+    }
 }
