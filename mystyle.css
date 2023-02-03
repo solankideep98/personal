@@ -187,7 +187,8 @@ h1{
     p{
         width:50vw
 
-     nav.navigation{
+    }
+    nav.navigation{
         display: none;
         /* flex-direction: column;
         gap: 2vh; */
@@ -200,7 +201,7 @@ h1{
     .logo-small{
         font-size: 20vw;
     }
-    }
+ }
     @media screen and (min-width:700px) {
     div.dropdown{
         display: none;
