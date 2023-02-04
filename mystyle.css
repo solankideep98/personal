@@ -165,9 +165,27 @@ h1{
 .dropdown:hover .dropbtn {background-color: #3e8e4100;}
 @media screen and (max-width:700px){
     
+.content-animation{
+    position: relative;
+    animation: anim 2s;
+
+}
+@keyframes anim{
+    from{
+        top:35vh;
+    }
+    to{
+        top:0vh;
+    }
+}
+     .fotto{
+        height: 70vh;
+    }
+    
     .content{
         display: flex;
         flex-direction: column;
+        height:60vh;
     }
     .meeh{
         width:25vw;
@@ -179,10 +197,14 @@ h1{
         gap:2vh;
     }
     .ikshna{
-        width: 20vw;
+        width: 120px;
+        height:190px;
+        margin:auto;
     }
     .suno{
-        width: 20vw;
+        width: 120px;
+        height: 190px;
+        margin:auto;
     }
     p{
         width:50vw
@@ -190,16 +212,20 @@ h1{
     }
     nav.navigation{
         display: none;
-        /* flex-direction: column;
-        gap: 2vh; */
     }
     .dropdown{
         display: flex;
         flex-direction: row;
         gap: 10vw;
+        height:15vw;
     }
     .logo-small{
-        font-size: 20vw;
+        font-size: 10vw;
+        padding-left: 20vw;
+        height:0vh;
+    }
+    .footer{
+        text-align:center;
     }
  }
     @media screen and (min-width:700px) {
