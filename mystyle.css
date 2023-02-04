@@ -179,7 +179,7 @@ h1{
     }
 }
      .fotto{
-         background-image: url('./polish.jpg');
+         background-image: url('./Polish.jpg');
             box-shadow: inset 0 0 0 2000px rgba(8, 8, 8, 0.493);
         height: 70vh;
     }
@@ -209,8 +209,8 @@ h1{
         margin:auto;
     }
     p{
-        width:90vw;
-        font-size: 2.5vw;
+        width:100vw;
+        font-size: 5px;
 
     }
     nav.navigation{
