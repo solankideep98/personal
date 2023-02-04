@@ -179,7 +179,7 @@ h1{
     }
 }
      .fotto{
-         background-image: url('./Polish.jpg');
+/*          background-image: url('./Polish.jpg'); */
             box-shadow: inset 0 0 0 2000px rgba(8, 8, 8, 0.493);
         height: 70vh;
     }
